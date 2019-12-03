@@ -1,0 +1,148 @@
+.About {
+  background: black;
+}
+
+.About .left hr {
+  background: #e9204f;
+  height: 2px;
+  width: 40px;
+  border: none;
+}
+
+.About .left h2 {
+  color: white;
+  font-weight: bold;
+}
+
+.About .left h5 {
+  font-size: 20px;
+  color: #e9204f;
+  font-weight: bold;
+}
+
+.About .img .img-left {
+  position: relative;
+}
+
+.About .img .img-left:hover img {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.About .img .img-left img {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.About .img .img-left .overlay {
+  position: absolute;
+  left: 10%;
+  bottom: 13%;
+  content: '';
+  color: white;
+}
+
+.About .img-right .right1 img {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.About .img-right .right1 img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.About .img-right .right1 .overlay {
+  position: absolute;
+  left: 10%;
+  bottom: 0;
+  content: '';
+  color: white;
+}
+
+.About .img-right .right1 img {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.About .img-right .right1 img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.About .img-right .right1 .overlay {
+  position: absolute;
+  left: 10%;
+  bottom: 0;
+  content: '';
+  color: white;
+}
+
+.all {
+  background: black;
+}
+
+.all .text .col-lg-7 {
+  margin-bottom: 60px;
+}
+
+.all .text h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.all .text p {
+  color: white;
+  font-size: 20px;
+  margin-top: 70px;
+  margin-bottom: 5rem;
+}
+
+.all .text h4 {
+  font-size: 17px;
+  color: #e9204f;
+  font-weight: bold;
+}
+
+.slovar {
+  background: black;
+  padding: 80px 0;
+}
+
+.slovar .rule br {
+  color: blanchedalmond;
+}
+
+.all {
+  background: black;
+  padding: 40px 40px;
+}
+
+.all i {
+  color: blanchedalmond;
+  font-size: 17px;
+  padding: 7px;
+  border-radius: 50px;
+  border: 1px solid greenyellow;
+  margin: 0 10px;
+}
+
+.all i:hover {
+  color: green;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.all button {
+  font-size: 17px;
+  font-weight: bold;
+  border: 2px solid red;
+  padding: 10px 20px;
+}
+
+.all h3 {
+  color: white;
+  font-size: 32px;
+}
+/*# sourceMappingURL=dekabr.css.map */

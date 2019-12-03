@@ -1,0 +1,142 @@
+
+.About{
+    background: black;
+    .left{
+        hr{
+            background: #e9204f;
+            height: 2px;
+            width: 40px;
+            border: none;
+        }
+        h2{
+            color:white;
+            font-weight: bold;
+        }
+        h5{
+            font-size: 20px;
+            color:  #e9204f;
+            font-weight: bold;
+        }
+    }
+.img{
+   
+    .img-left{
+        position: relative;
+        &:hover{
+            img{
+                filter: grayscale(0);
+            }
+        }
+        img{
+            filter: grayscale(1);
+        }
+        .overlay{
+            position: absolute;
+            left: 10%;
+            bottom: 13%;
+            content: '';
+            color: white;
+        }
+    }
+}
+.img-right{
+    
+.right1{
+
+    img{
+        filter: grayscale(1);
+    }
+    img{
+    &:hover{
+        filter: grayscale(0);
+    }
+    }
+    .overlay{
+        position: absolute;
+        left: 10%;
+        bottom: 0;
+        content: '';
+        color: white;
+    }
+}
+.right1{
+
+    img{
+        filter: grayscale(1);
+    }
+    img{
+    &:hover{
+        filter: grayscale(0);
+    }
+    }
+    .overlay{
+        position: absolute;
+        left: 10%;
+        bottom: 0;
+        content: '';
+        color: white;
+    }
+}
+}
+}
+
+.all{
+    background: black;
+    .text{
+        .col-lg-7{
+            margin-bottom: 60px;
+        }
+        h2{
+          color: white;
+            font-size: 30px;
+            font-weight: bold;
+            
+        }
+        p{
+            color: white;
+            font-size: 20px;
+            margin-top: 70px;
+            margin-bottom: 5rem
+        }
+        h4{
+            font-size:17px;
+            color: #e9204f;
+            font-weight: bold;
+        }
+    }
+}
+.slovar{
+    background: black;
+    padding: 80px 0;
+    .rule{
+        br{
+            color: blanchedalmond;
+        }
+    }
+}
+.all{
+    background: black;
+    padding: 40px 40px;
+    i{
+        &:hover{
+            color:green;
+            transform: translateY(-10px);
+        }
+        color: blanchedalmond;
+        font-size: 17px;
+        padding: 7px;
+        border-radius: 50px;
+        border: 1px solid greenyellow;
+        margin: 0 10px;
+    }
+    button{
+      font-size: 17px;
+       font-weight: bold;
+        border: 2px solid red;
+        padding:  10px 20px;
+    }
+    h3{
+        color: white;
+        font-size: 32px;
+    }
+}
